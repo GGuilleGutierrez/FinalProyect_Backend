@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "4846915",
-    "database": "ourcar_db",
-    "host": "127.0.0.1",
+    "username": "u03mcravmrmv61rr",
+    "password": "feYClOwF9J0Dszd1MW09",
+    "database": "b9k7i1l87gqgnrmb8ldu",
+    "host": "b9k7i1l87gqgnrmb8ldu-mysql.services.clever-cloud.com",
     "dialect": "mysql"
   },
   "test": {
