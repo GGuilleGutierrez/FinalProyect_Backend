@@ -4,9 +4,22 @@ const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 
 const getAllProds = (req, res) => {
-    return products.findAll()
-        .then(products => { res.status(200).send(products) })
-        .catch(error => res.status(404).send(error))
+    const htmlResponse = `        
+    <html>
+        <head>
+            <title>ourcarbackend</title>
+        </head> 
+        <body>
+            <h1>SI FUNCIONO</h1>
+        </body>
+    </html>
+    `;
+    return res.send(htmlResponse);
+
+    
+    // return products.findAll()
+    //     .then(products => { res.status(200).send(products) })
+    //     .catch(error => res.status(404).send(error))
 }
 
 // const getOne = (req, res) => {
