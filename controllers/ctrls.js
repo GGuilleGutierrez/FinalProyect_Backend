@@ -4,17 +4,7 @@ const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 
 const getAllProds = (req, res) => {
-    const htmlResponse = `        
-    <html>
-        <head>
-            <title>ourcarbackend</title>
-        </head> 
-        <body>
-            <h1>SI FUNCIONO</h1>
-        </body>
-    </html>
-    `;
-    return res.send(htmlResponse);
+    return res.send("SI FUNCIONO");
 
     
     // return products.findAll()
