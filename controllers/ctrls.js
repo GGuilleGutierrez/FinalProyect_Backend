@@ -1,5 +1,5 @@
-const products = require("../../models").products
-const users = require("../../models").users
+const products = require("../models").products
+const users = require("../models").users
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 
